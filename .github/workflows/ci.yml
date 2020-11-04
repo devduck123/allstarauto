@@ -40,4 +40,4 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.6.x
-          lhci autorun
+          lhci autorun --collect.staticDistDir="./" --rc-overrides.upload.target=temporary-public-storage --assert.preset=lighthouse:no-pwa
