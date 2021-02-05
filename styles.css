@@ -1,0 +1,55 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #ffefd5;
+}
+
+#main-header {
+  text-align: center;
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+  font-weight: 100px;
+}
+
+h1 {
+  font-size: 80px;
+  text-shadow: ;
+}
+
+h2 {
+  font-weight: 300px;
+  font-size: 48px;
+}
+
+hr {
+    border-top: 8px solid;
+    border-color: black;
+    border-radius: 5px black;
+}
+
+article {
+    text-align: center;
+    padding: 30px;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 60px;
+}
+
+nav {
+    text-align: right;
+    padding: 5px;
+}
+
+/*Remove Bullet Points for Unordered List*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    padding: 6px;
+}
