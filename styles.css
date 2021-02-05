@@ -13,7 +13,6 @@ body {
 
 h1 {
   font-size: 80px;
-  text-shadow: ;
 }
 
 h2 {
@@ -22,14 +21,14 @@ h2 {
 }
 
 hr {
-    border-top: 8px solid;
-    border-color: black;
-    border-radius: 5px black;
+  border-top: 8px solid;
+  border-color: black;
+  border-radius: 5px black;
 }
 
 article {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 #main-footer {
@@ -38,18 +37,18 @@ article {
 }
 
 nav {
-    text-align: right;
-    padding: 5px;
+  text-align: right;
+  padding: 5px;
 }
 
 /*Remove Bullet Points for Unordered List*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    text-align: center;
-    padding: 6px;
+  text-align: center;
+  padding: 6px;
 }
