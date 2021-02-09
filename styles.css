@@ -1,44 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
-  background-color: #ffefd5;
-}
-
-#main-header {
-  text-align: center;
-  margin: 10px;
-  border: 10px;
-  padding: 10px;
-  font-weight: 100px;
-}
-
-h1 {
-  font-size: 80px;
-}
-
-h2 {
-  font-weight: 300px;
-  font-size: 48px;
-}
-
-hr {
-  border-top: 8px solid;
-  border-color: black;
-  border-radius: 5px black;
-}
-
-article {
-  text-align: center;
-  padding: 30px;
-}
-
-#main-footer {
-  text-align: center;
-  padding: 60px;
-}
-
-nav {
-  text-align: right;
-  padding: 5px;
+  background-color: #eae7dc;
 }
 
 /*Remove Bullet Points for Unordered List*/
@@ -48,7 +10,78 @@ ul {
   padding: 0;
 }
 
-li {
-  text-align: center;
-  padding: 6px;
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 4px;
+  margin: 4px;
+  width: fit-content;
+  border: 3px solid #eae7dc;
+  border-radius: 10px;
+  background-color: #c0c0c0;
+  text-shadow: 3px 3px 3px #eae7dc;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border: 4px solid black;
+  background-color: #f3e0be;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-350px);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 120px;
+}
+
+.links {
+  padding: 10px;
+  background-color: #d9dbdd44;
+  border: 3px solid black;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Work sans", sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: fit-content;
+  display: flexbox;
+  flex-wrap: wrap;
+  margin-left: 280px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  transform: translateY(-210px);
+}
+
+.info {
+  padding: 12px;
+  font-size: 28px;
+  font-family: "Trebuchet MS", "Work sans", sans-serif;
+  font-weight: bolder;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.2;
+  transform: translateY(-370px);
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: white;
 }
