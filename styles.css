@@ -1,7 +1,8 @@
 body {
   font-family: "Work Sans", sans-serif;
   background-color: #eae7dc;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url("assets/brz.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("assets/brz.jpg");
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -15,7 +16,8 @@ ul {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   padding: 0;
   margin: 0;
 }
@@ -35,11 +37,11 @@ header {
   text-decoration: underline;
   margin-left: 15%;
   text-shadow: 3px 3px 5px black, 3px 3px 5px white;
-  color: #A59FF5;
+  color: #a59ff5;
 }
 
 .menu {
-  background-color: #A59FF5;
+  background-color: #a59ff5;
   display: flex;
   flex-wrap: row wrap;
   justify-content: center;
@@ -60,7 +62,7 @@ header {
 
 .link:hover {
   transform: translateY(-16px);
-  background-color:plum;
+  background-color: plum;
 }
 
 .container {
@@ -75,14 +77,14 @@ header {
 }
 
 #contentA {
-  background-color: #F9FBDB;
+  background-color: #f9fbdb;
   margin: 40px;
   border: 4px solid black;
   border-radius: 12px;
 }
 
 #contentB {
-  background-color: #F9FBDB;
+  background-color: #f9fbdb;
   margin: 40px;
   border: 4px solid black;
   border-radius: 12px;
