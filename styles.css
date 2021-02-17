@@ -29,7 +29,7 @@ header {
   border: 4px solid black;
   text-align: center;
   font-size: 38px;
-  background-color: plum;
+  background: linear-gradient(#a59ff5, white, white);
 }
 
 #menuLogo {
@@ -37,11 +37,11 @@ header {
   text-decoration: underline;
   margin-left: 15%;
   text-shadow: 3px 3px 5px black, 3px 3px 5px white;
-  color: #a59ff5;
+  color: #d4e6d9;
 }
 
 .menu {
-  background-color: #a59ff5;
+  background-color: #d4e6d9;
   display: flex;
   flex-wrap: row wrap;
   justify-content: center;
@@ -62,7 +62,7 @@ header {
 
 .link:hover {
   transform: translateY(-16px);
-  background-color: plum;
+  background: linear-gradient(#a59ff5, white, white);
 }
 
 .container {
@@ -78,14 +78,15 @@ header {
 }
 
 #contentA {
-  background-color: #f9fbdb;
+  /* background-color: #d4e6d9; */
+  background: linear-gradient(#d4e6d9, white, white);
   margin: 40px;
   border: 4px solid black;
   border-radius: 12px;
 }
 
 #contentB {
-  background-color: #f9fbdb;
+  background: linear-gradient(#d4e6d9, white, white);
   margin: 40px;
   border: 4px solid black;
   border-radius: 12px;
@@ -101,7 +102,7 @@ header {
   text-decoration: underline;
   text-align: left;
   padding: 4px;
-  text-shadow: 3px 3px 5px plum;
+  text-shadow: 3px 3px 5px #a59ff5;
 }
 
 footer {
