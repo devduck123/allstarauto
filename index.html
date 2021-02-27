@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html="en">
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +9,6 @@
     />
     <title>AllStarAuto</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;900&display=swap"
       rel="stylesheet"
@@ -17,63 +16,65 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
 
-  <!-- top-center of the page -->
+  <!-- top of the page -->
   <body>
     <header>
       <h1>All Star Auto Body</h1>
     </header>
 
-    <!-- right-side of page (menu) -->
+    <!-- menu -->
     <nav>
-      <h2 id="menuLogo">Menu</h2>
-      <ul>
-        <div class="menu">
-          <li class="link"><a href="#" target="_blank">About Us</a></li>
-          <li class="link">
-            <a
-              href="https://www.yelp.com/biz/allstar-auto-body-oakland"
-              target="_blank"
-              >Reviews</a
-            >
-          </li>
-          <li class="link">
-            <a href="assets/brz.jpg" target="blank">View our Work</a>
-          </li>
-        </div>
+      <ul id="menu">
+        <li class="link">
+          <a class="menu-item" href="#" target="_blank">About Us</a>
+        </li>
+        <li class="link">
+          <a
+            class="menu-item"
+            href="https://www.yelp.com/biz/allstar-auto-body-oakland"
+            target="_blank"
+            >Reviews</a
+          >
+        </li>
+        <li class="link">
+          <a class="menu-item" href="assets/brz.jpg" target="blank"
+            >View our Work</a
+          >
+        </li>
       </ul>
     </nav>
 
-    <!-- the middle of the page (all the content/details) -->
-    <div class="container">
-      <article>
-        <div id="contentA">
-          <h2 id="listLogo">Contact us:</h2>
+    <!-- content -->
+    <main>
+      <!-- container 1 -->
+      <div class="container">
+        <section>
           <ul>
-            <li id="list">
+            <h2 class="heading">Contact Us</h2>
+            <li class="item">
               Phone Number: <a href="tel:+15102610600">510-261-0600</a>
             </li>
-            <li id="list">
+            <li class="item">
               Email Address:
               <a href="mailto:allstarauto88@att.net">allstarauto88@att.net</a>
             </li>
-            <li id="list">
+            <li class="item">
               Street Address: 3658 Foothill Blvd, Oakland, CA 94601
             </li>
           </ul>
-        </div>
-      </article>
+        </section>
 
-      <article>
-        <div id="contentB">
-          <h2 id="listLogo">Services that we offer:</h2>
+        <!-- container 2 -->
+        <section>
           <ul>
-            <li id="list">Body work and repair</li>
-            <li id="list">Paint service</li>
-            <li id="list">Frame Damage</li>
+            <h2 class="heading">Services we Offer:</h2>
+            <li class="item">Body work and repair</li>
+            <li class="item">Paint service</li>
+            <li class="item">Frame Damage</li>
           </ul>
-        </div>
-      </article>
-    </div>
+        </section>
+      </div>
+    </main>
 
     <footer>Copyright &copy; 2020, AllStarAuto</footer>
   </body>
