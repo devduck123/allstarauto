@@ -196,30 +196,3 @@ footer {
     transform: translateY(200px);
   }
 }
-
-/* Big Screen */
-@media (min-width: 1000px) {
-  header {
-    font-size: 2.2rem;
-  }
-
-  .link {
-    font-size: 1.8em;
-  }
-
-  .heading {
-    font-size: 2.8rem;
-  }
-
-  #container-one {
-    margin-left: 50px;
-  }
-
-  #container-two {
-    margin-top: 20px;
-  }
-
-  .item {
-    font-size: 2.2em;
-  }
-}
