@@ -1,82 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content =  "width=device-width, initial-scale = 1.0">
-    <meta name = "description" content = "AllStarAuto body shop, an auto shop located in Oakland, CA for customers' vehicle needs">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <meta
+      name="description"
+      content="AllStarAuto body shop, an auto shop located in Oakland, CA for customers' vehicle needs"
+    />
     <title>AllStarAuto</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;900&display=swap" rel="stylesheet"> 
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
 
-  <!-- styles -->
-  <style type = "text/css">
-  body {
-      font-family: 'Work Sans', sans-serif;
-  }
-    #main-header{
-      text-align: center;
-      padding: 10px;
-      font-weight: 900;
-    }
-    h1 {
-      font-size: 80px;
-    }
-    h2 {
-      font-weight: 300;
-    }
-  </style>
-
-  <!-- top-center of the page -->
-  <body style = "background-color: #EFEFEF;">
-    <header id = "main-header">
+  <!-- top of the page -->
+  <body>
+    <header>
       <h1>All Star Auto Body</h1>
     </header>
-    <hr>
 
-    <!-- the middle of the page (all the content/details) -->
-    <section>
-      <div>
-        <article>
-          <h2><strong>Contact us</strong></h2>
+    <!-- menu -->
+    <nav>
+      <ul id="menu">
+        <li class="link">
+          <a class="menu-item" href="#" target="_blank">About Us</a>
+        </li>
+        <li class="link">
+          <a
+            class="menu-item"
+            href="https://www.yelp.com/biz/allstar-auto-body-oakland"
+            target="_blank"
+            >Reviews</a
+          >
+        </li>
+        <li class="link">
+          <a class="menu-item" href="assets/brz.jpg" target="blank"
+            >View our Work</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <!-- container 1 -->
+        <section id="container-one">
           <ul>
-            <li>Phone Number: <a href="tel:+15102610600">510-261-0600</a></li>
-            <li>Email Address: <a href="mailto:allstarauto88@att.net">allstarauto88@att.net</a></li>
-            <li>Street Address: 3658 Foothill Blvd, Oakland, CA 94601</li>
+            <h2 class="heading">Contact Us</h2>
+            <li class="item">
+              Phone Number:<br><a href="tel:+15102610600">510-261-0600</a>
+            </li>
+            <li class="item">
+              Email Address:<br>
+              <a href="mailto:allstarauto88@att.net">allstarauto88@att.net</a>
+            </li>
+            <li class="item">
+              Street Address:<br>
+              <a href="https://www.google.com/maps/place/3658+Foothill+Blvd,+Oakland,+CA+94601" target="_blank">
+                3658 Foothill Blvd, Oakland, CA 94601
+              </a>
+            </li>
           </ul>
-        </article>
+        </section>
+
+        <!-- container 2 -->
+        <section id="container-two">
+          <ul>
+            <h2 class="heading">Services we Offer:</h2>
+            <li class="item">Body work and repair</li>
+            <li class="item">Paint service</li>
+            <li class="item">Frame Damage</li>
+          </ul>
+        </section>
       </div>
+    </main>
 
-      <div>
-        <article>
-          <h2><strong>Services</strong> that we offer:</h2>
-          <ul>
-            <li>Body work and repair</li>
-            <li>Paint service</li>
-            <li>Frame Damage</li>
-          </ul>
-        </article>
-    </div>
-    </section>
-
-    <!-- right-side of page (menu) -->
-    <aside>
-      <div>
-        <h2><strong>Menu</strong></h2>
-        <nav>
-          <ul>
-            <li><a href = "#" target = "_blank">About Us</a></li>
-            <li><a href = "https://www.yelp.com/biz/allstar-auto-body-oakland" target = "_blank">Our Reviews</a></li>
-            <li><a href = "#">View some of our Work</a></li>
-          </ul>
-        </nav>
-      </div>
-    </aside>
-
-    <hr>
-    <footer id = "main-footer">
-        <p>Copyright &copy; 2020, AllStarAuto</p>
-    </footer>
-
+    <footer>Copyright &copy; 2020, AllStarAuto</footer>
   </body>
 </html>
