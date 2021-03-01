@@ -48,8 +48,7 @@ header {
   text-align: center;
   flex-wrap: wrap;
   font-size: 0.9rem;
-  background: linear-gradient(0deg, #000 30%, #fff4 100%),
-    url("assets/brz.jpg");
+  background: linear-gradient(0deg, #000 30%, #fff4 100%), url("assets/brz.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
