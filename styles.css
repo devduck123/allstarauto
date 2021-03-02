@@ -48,7 +48,8 @@ header {
   text-align: center;
   flex-wrap: wrap;
   font-size: 0.9rem;
-  background: linear-gradient(0deg, #000 30%, #fff4 100%), url("assets/brz.jpg");
+  background: linear-gradient(0deg, #0008 30%, #fff4 100%),
+    url("assets/brz.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,8 +112,6 @@ a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 0.75em;
-
-  /* font-weight: bold; */
   padding: 20px;
   margin: 20px;
   margin-top: 30px;
