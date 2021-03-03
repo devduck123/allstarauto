@@ -1,7 +1,12 @@
 {
   "devDependencies": {
+    "htmlhint": "^0.14.2",
     "stylelint": "^13.11.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "htmlhint": "./node_modules/.bin/htmlhint **/*.html",
+    "stylelint": "npx stylelint '**/*.css'"
   }
 }
