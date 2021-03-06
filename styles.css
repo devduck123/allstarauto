@@ -82,7 +82,8 @@ header {
   background: linear-gradient(to top right, #f9f871, #ffe171, #ffca80, #ffb896);
 }
 
-.link:hover {
+.link:active,
+.link:visited {
   transform: translateY(-10px);
   background: white;
 }
@@ -102,6 +103,21 @@ a:hover {
   color: rosybrown;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#about-us {
+  max-width: 900px;
+  text-align: left;
+  line-height: 1.4em;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -113,7 +129,6 @@ a:hover {
   flex-wrap: wrap;
   font-size: 0.75em;
   padding: 20px;
-  margin: 20px;
   margin-top: 30px;
 }
 
@@ -149,8 +164,7 @@ footer {
   display: grid;
   place-content: center;
   text-align: center;
-  margin-top: 180px;
-  margin-bottom: 0;
+  padding: 10px;
   font-size: 0.8em;
 }
 
@@ -158,6 +172,10 @@ footer {
 @media (min-width: 650px) {
   header {
     font-size: 2rem;
+  }
+
+  #about-us {
+    font-size: 1.4em;
   }
 
   .link {
@@ -184,9 +202,5 @@ footer {
 
   .item {
     font-size: 1.6em;
-  }
-
-  footer {
-    transform: translateY(200px);
   }
 }
