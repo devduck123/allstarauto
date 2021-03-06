@@ -35,7 +35,7 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.7.x
-          lhci autorun --collect.staticDistDir="./" --rc-overrides.upload.target=temporary-public-storage --assert.preset=lighthouse:no-pwa
+          lhci autorun  --rc-overrides.upload.target=temporary-public-storage
 
   prettier:
     name: Prettier formatting
