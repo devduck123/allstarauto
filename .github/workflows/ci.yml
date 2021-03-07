@@ -24,28 +24,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 10.x
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
+          node-version: 12.x
       - name: npm install, build
         run: |
           npm init -y
           npm install
       - name: run Lighthouse CI
         run: |
-          npm install -g @lhci/cli@0.6.x
-          lhci autorun --collect.staticDistDir="./" --rc-overrides.upload.target=temporary-public-storage --assert.preset=lighthouse:no-pwa
+          npm install -g @lhci/cli@0.7.x
+          lhci --version
+          lhci autorun  --rc-overrides.upload.target=temporary-public-storage
 
   prettier:
     name: Prettier formatting
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 10.x
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
+          node-version: 12.x
       - name: run Prettier on HTML, CSS, and JS files
         run: |
           npm install -g prettier

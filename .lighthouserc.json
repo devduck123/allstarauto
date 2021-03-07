@@ -1,0 +1,14 @@
+{
+  "ci": {
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "unused-javascript": ["warn", { "maxLength": 1 }]
+      }
+    },
+    "collect": {
+      "staticDistDir": "./",
+      "numberOfRuns": "1"
+    }
+  }
+}
