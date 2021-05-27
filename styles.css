@@ -18,7 +18,7 @@ h1,
 h2 {
   padding: 0;
   margin: 0;
-  
+
   /* utilizing -webkit to apply linear-gradient to text color */
   background: linear-gradient(to bottom, #f9f871, #ffe171, #ffca80, #ffb896);
   -webkit-text-fill-color: transparent;
