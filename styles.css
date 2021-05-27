@@ -1,26 +1,10 @@
-/* reduce animations if preferred */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
-
 html {
   font-family: "Work Sans", sans-serif;
   color: white;
   background: linear-gradient(to bottom left, #000, #303030, #5e5e5e, #919191);
   background-size: cover;
-
-  /* fixes background to page */
   background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 /* Remove Bullet Points for Unordered List */
@@ -35,7 +19,7 @@ h2 {
   padding: 0;
   margin: 0;
 
-  /* -webkit applies linear-gradient to text color */
+  /* utilizing -webkit to apply linear-gradient to text color */
   background: linear-gradient(to bottom, #f9f871, #ffe171, #ffca80, #ffb896);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -57,9 +41,7 @@ header {
   height: 30%;
   width: auto;
   margin: 0;
-  padding: 20px;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 20px 0 20px 0;
   user-select: none;
 }
 
@@ -69,30 +51,38 @@ header {
   justify-items: auto;
   align-items: center;
   align-content: center;
-  flex-wrap: wrap;
   margin-top: 12px;
 }
 
-.link {
-  font-size: 0.72em;
+.menu-button {
+  font-size: 3vw;
   font-weight: bold;
-  padding: 10px;
-  margin: 10px;
-  border: 4px solid rbg(69, 69, 69);
+  font-family: "Work Sans", sans-serif;
+  padding: 12px;
+  margin: 12px;
+  border: 2px solid rgba(69, 69, 69, 0.2);
+  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  background: linear-gradient(to top right, #f9f871, #ffe171, #ffca80, #ffb896);
-  user-select: none;
-}
-
-.link:active,
-.link:visited {
-  transform: translateY(-10px);
-  background: white;
-}
-
-/* override <a> selector */
-.menu-item {
   color: rgb(69, 69, 69);
+  background: linear-gradient(to top right, #f9f871, #ffe171, #ffca80, #ffb896);
+
+  /* stackoverflow: force text on one line */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.menu-button:hover {
+  text-decoration: underline;
+  transform: translateY(-5px);
+  background: linear-gradient(
+    to bottom left,
+    #f9f871,
+    #ffe171,
+    #ffca80,
+    #ffb896
+  );
+  transition: 1s ease-in-out;
+  cursor: pointer;
 }
 
 /* removes purple and underline from previously clicked links */
@@ -180,8 +170,8 @@ footer {
     font-size: 1.4em;
   }
 
-  .link {
-    font-size: 1.4em;
+  .menu-button {
+    font-size: 0.9em;
   }
 
   .container {
@@ -204,5 +194,20 @@ footer {
 
   .item {
     font-size: 1.6em;
+  }
+}
+
+/* reduce animations if preferred */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
   }
 }
