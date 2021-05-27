@@ -18,7 +18,7 @@ h1,
 h2 {
   padding: 0;
   margin: 0;
-
+  
   /* utilizing -webkit to apply linear-gradient to text color */
   background: linear-gradient(to bottom, #f9f871, #ffe171, #ffca80, #ffb896);
   -webkit-text-fill-color: transparent;
@@ -65,7 +65,8 @@ header {
   border-radius: 12px;
   color: rgb(69, 69, 69);
   background: linear-gradient(to top right, #f9f871, #ffe171, #ffca80, #ffb896);
-  /* stackoverflow: force text on one line*/
+
+  /* stackoverflow: force text on one line */
   white-space: nowrap;
   overflow: hidden;
 }
