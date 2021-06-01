@@ -3,6 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 1200px;
 }
 
 #prev,
@@ -51,6 +52,7 @@
   margin-left: 6px;
   margin-right: 6px;
   user-select: none;
+  font-size: 1em;
 }
 
 .active,
@@ -63,6 +65,7 @@
 
 .works-image {
   width: 100%;
+  height: auto;
   position: relative;
 }
 

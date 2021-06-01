@@ -22,6 +22,7 @@ function showWork(n) {
     workIndex = works.length;
   }
 
+  // hide works by default
   for (let i = 0; i < works.length; i++) {
     works[i].style.display = "none";
   }
