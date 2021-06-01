@@ -5,6 +5,7 @@ html {
   background-size: cover;
   background-attachment: fixed;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 /* Remove Bullet Points for Unordered List */
@@ -52,10 +53,10 @@ header {
   align-items: center;
   align-content: center;
   margin-top: 12px;
+  font-size: clamp(1rem, 2vw, 2rem);
 }
 
 .menu-button {
-  font-size: 3vw;
   font-weight: bold;
   font-family: "Work Sans", sans-serif;
   padding: 12px;

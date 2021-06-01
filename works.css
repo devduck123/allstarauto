@@ -60,13 +60,12 @@
   background-color: #ffe171;
   color: #ffe171;
   border: 7px solid #ffe171;
-  transition: 0.4s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .works-image {
   width: 100%;
   height: auto;
-  position: relative;
 }
 
 #works-nav {
