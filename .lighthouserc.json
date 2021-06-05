@@ -4,7 +4,8 @@
       "preset": "lighthouse:no-pwa",
       "assertions": {
         "unused-javascript": ["warn", { "maxLength": 1 }],
-        "non-composited-animations": "off"
+        "non-composited-animations": "off",
+        "uses-optimized-images": ["warn", { "maxLength": 2 }]
       }
     },
     "collect": {
