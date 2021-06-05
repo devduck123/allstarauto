@@ -3,7 +3,8 @@
     "assert": {
       "preset": "lighthouse:no-pwa",
       "assertions": {
-        "unused-javascript": ["warn", { "maxLength": 1 }]
+        "unused-javascript": ["warn", { "maxLength": 1 }],
+        "non-composited-animations": "off"
       }
     },
     "collect": {
