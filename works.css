@@ -64,6 +64,7 @@
 }
 
 .works-image {
+  aspect-ratio: attr(width) / attr(height);
   width: 100%;
   height: auto;
 }
