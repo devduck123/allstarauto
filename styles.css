@@ -49,9 +49,6 @@ header {
 #menu {
   display: flex;
   justify-content: center;
-  justify-items: auto;
-  align-items: center;
-  align-content: center;
   margin-top: 12px;
   font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
@@ -60,7 +57,7 @@ header {
   font-weight: bold;
   font-family: "Work Sans", sans-serif;
   padding: 12px;
-  margin: 12px;
+  margin: 1vh 1.5vw 0 1.5vw;
   border: 2px solid rgba(69, 69, 69, 0.2);
   box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.2);
   border-radius: 12px;
